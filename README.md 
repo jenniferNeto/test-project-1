@@ -1,0 +1,90 @@
+# Pre-work - *Memory Game*
+
+**Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
+
+Submitted by: **Jennifer Neto**
+
+Time spent: **2h:30m** hours spent in total
+
+Link to project: (https://glitch.com/edit/#!/statuesque-adaptive-raptorex)
+
+## Required Functionality
+
+The following **required** functionality is complete:
+
+* [x] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
+* [x] "Start" button toggles between "Start" and "Stop" when clicked. 
+* [x] Game buttons each light up and play a sound when clicked. 
+* [x] Computer plays back sequence of clues including sound and visual cue for each button
+* [x] Play progresses to the next turn (the user gets the next step in the pattern) after a correct guess. 
+* [x] User wins the game after guessing a complete pattern
+* [x] User loses the game after an incorrect guess
+
+The following **optional** features are implemented:
+
+* [ ] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
+* [ ] Buttons use a pitch (frequency) other than the ones in the tutorial
+* [ ] More than 4 functional game buttons
+* [ ] Playback speeds up on each turn
+* [ ] Computer picks a different pattern each time the game is played
+* [ ] Player only loses after 3 mistakes (instead of on the first mistake)
+* [ ] Game button appearance change goes beyond color (e.g. add an image)
+* [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
+* [ ] User has a limited amount of time to enter their guess on each turn
+
+The following **additional** features are implemented:
+
+- [ ] List anything else that you can get done to improve the app!
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+![](https://cdn.glitch.com/8c1df615-d0bb-4020-ab99-ce2bbb7eb60c%2Fezgif.com-gif-maker.gif?v=1615577831689)
+
+
+## Reflection Questions
+1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
+[I only used the prework instruction sheet]
+
+2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
+[I faced a challenge when I implemented the game’s sound and visuals to start playing when the user pressed the "start" button. At first, I followed all of the instructions
+and thought it would work accordingly. Unfortunately, during my testing, I realized the game was not generating light or sound on the buttons when pressed.
+I tried analyzing and debugging my code to make sure everything was correct and looked over the instructions sheet to make sure I hadn't missed anything, such as a function or class.
+Everything looked correct, but the game was still not working correctly. I decided to check the console using my developer view in the browser. And quickly found the issue. 
+I noticed an error was displayed in the developer view of the line with the console.log() for the playClueSequence() part of the function. I decided to comment it out and see if it would work.
+After I commented out the line, the game started to work correctly; however, that reasoning was incorrect. After looking over the code one more time, I noticed the misspelled syntax, fixed the syntax from “console.long” to “console.log,” and the game began to work. 
+Fortunately, the game started to work correctly after I fixed the misspelling.
+]
+
+3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
+[ Web development can be tricky, and there are many different methods that you can use to achieve the result you want. With this project, I noticed that JavaScript libraries were used to generate the audio when the button was pressed. 
+I am very interested in knowing more about how these libraries are developed and to learn more about other JavaScript libraries. I know that libraries can have specific functions, methods, and objects that can then be called upon when needed. 
+If I am aware of the other free libraries available to me during web development, I feel that the possibilities would be endless for what I can create on an HTML page. 
+]
+
+4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
+[I began working on this project during my midterms. My school had sent me the information about this fantastic opportunity a couple of weeks before the application process closed.
+I rushed my development because I wanted to have at least the basic requirements working to be considered for the summer internship. If I had more time to work on the project,
+I would add all of the optional features and do my research to personalize the game and add my unique touch such as additional sounds, a scoreboard and multiplayer so that two players can play the game simultaneously. 
+I know that I would be able to add these special features, given that I had to teach myself how to use C# for one of my classes last semester to create a personalized videogame. 
+I learned the language and used Unity for the first time to create three different games and passed the class with an A.
+This project was enjoyable to work on, but unfortunately, I could not give it my all since excelling in school is my priority.
+]
+
+
+
+## License
+
+    Copyright [Jennifer Neto]
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
